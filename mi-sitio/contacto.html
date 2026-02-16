@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi Negocio — Contacto</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="index.html"><span>🍕 Mi Negocio</span><span class="badge">contacto</span></a>
+        <button class="menu-btn" data-menu-btn>☰ Menú</button>
+        <nav class="nav" data-nav>
+          <a href="index.html">Inicio</a>
+          <a href="productos.html">Productos</a>
+          <a href="contacto.html">Contactanos</a>
+          <a href="equipo.html">Sumate</a>
+          <a href="privacidad.html">Privacidad</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2>Contactanos</h2>
+      <p class="lead">Dejá tu consulta y te respondemos.</p>
+
+      <div class="grid" style="grid-template-columns:1fr 1fr;">
+        <div class="card">
+          <h3>Datos rápidos</h3>
+          <p>📍 Zona: <b>Tu barrio / ciudad</b></p>
+          <p>🕒 Horarios: <b>Lun–Vie 10:00–19:00</b></p>
+          <p>📲 WhatsApp: <b>+54 11 0000-0000</b></p>
+          <p>✉️ Email: <b>hola@tudominio.com</b></p>
+          <div style="height:10px"></div>
+          <a class="btn primary" href="https://wa.me/541100000000" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+          <div class="help">Tip: cambiá el link wa.me por tu número real.</div>
+        </div>
+
+        <div class="card">
+          <h3>Formulario</h3>
+          <div data-form-msg class="help">⚠️ Esto es demo. Para enviar “de verdad” conectalo a Formspree o Google Forms.</div>
+
+          <form class="form" data-contact-form>
+            <input class="input" name="nombre" placeholder="Tu nombre" required />
+            <input class="input" name="telefono" placeholder="Teléfono / WhatsApp" />
+            <input class="input" type="email" name="email" placeholder="Email" required />
+            <textarea name="mensaje" placeholder="Tu mensaje..." required></textarea>
+            <button class="btn primary" type="submit">Enviar</button>
+            <div class="help">No compartas datos sensibles.</div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <span>© <span id="y"></span> Mi Negocio</span>
+        <span>
+          <a href="privacidad.html">Política de Privacidad</a> ·
+          <a href="productos.html">Productos</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
