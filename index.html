@@ -1,106 +1,26 @@
 <!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mi Negocio — Inicio</title>
-  <meta name="description" content="Sitio simple: home, productos, contacto, equipo y política de privacidad." />
-  <link rel="stylesheet" href="assets/styles.css" />
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="navbar">
-        <a class="brand" href="index.html">
-          <span>🍕 Mi Negocio</span>
-          <span class="badge">web simple</span>
-        </a>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Lovable App</title>
+    <meta name="description" content="Lovable Generated Project" />
+    <meta name="author" content="Lovable" />
 
-        <button class="menu-btn" data-menu-btn>☰ Menú</button>
+    <!-- TODO: Update og:title to match your application name -->
+    <meta property="og:title" content="Lovable App" />
+    <meta property="og:description" content="Lovable Generated Project" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-        <nav class="nav" data-nav>
-          <a href="index.html">Inicio</a>
-          <a href="productos.html">Productos</a>
-          <a href="contacto.html">Contactanos</a>
-          <a href="equipo.html">Sumate</a>
-          <a href="privacidad.html">Privacidad</a>
-        </nav>
-      </div>
-    </div>
-  </header>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
 
-  <main class="container">
-    <section class="hero">
-      <div class="hero-grid">
-        <div class="hero-card">
-          <h1 class="h1">Una web simple, clara y lista para vender 🚀</h1>
-          <p class="p">
-            Acá mostrás lo esencial: qué ofrecés, productos principales, cómo te contactan y links legales.
-            Sin vueltas, rápido, mobile-friendly.
-          </p>
-          <div class="cta">
-            <a class="btn primary" href="productos.html">Ver productos</a>
-            <a class="btn" href="contacto.html">Contactanos</a>
-          </div>
-          <div class="small-note">Tip: cambiá “Mi Negocio” por tu marca y listo.</div>
-        </div>
-
-        <aside class="side-card">
-          <div class="kpis">
-            <div class="kpi">
-              <b>✅ Sitio estático</b>
-              <span>HTML + CSS + JS (sin backend)</span>
-            </div>
-            <div class="kpi">
-              <b>🌐 Publicación gratis</b>
-              <span>GitHub Pages / Cloudflare Pages</span>
-            </div>
-            <div class="kpi">
-              <b>📱 Responsive</b>
-              <span>Se ve bien en celular</span>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>¿Qué vas a mostrar?</h2>
-      <p class="lead">Tres bloques simples y efectivos:</p>
-
-      <div class="grid">
-        <div class="card">
-          <h3>Productos principales</h3>
-          <p>Tarjetas con nombre, descripción corta y CTA.</p>
-          <span class="tag">Productos</span>
-        </div>
-        <div class="card">
-          <h3>Secciones “boludas” pero necesarias</h3>
-          <p>Contacto, sumate, privacidad, etc.</p>
-          <span class="tag">Secciones</span>
-        </div>
-        <div class="card">
-          <h3>Confianza</h3>
-          <p>Horarios, zona de entrega, medios de pago, redes.</p>
-          <span class="tag">Info útil</span>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <span>© <span id="y"></span> Mi Negocio</span>
-        <span>
-          <a href="privacidad.html">Política de Privacidad</a> ·
-          <a href="contacto.html">Contacto</a>
-        </span>
-      </div>
-    </div>
-  </footer>
-
-  <script src="assets/app.js"></script>
-  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:wght@300;400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Warm beige background */
+    --background: 35 30% 95%;
+    --foreground: 20 25% 15%;
+
+    /* Cards: slightly warmer */
+    --card: 35 25% 92%;
+    --card-foreground: 20 25% 15%;
+
+    --popover: 35 25% 92%;
+    --popover-foreground: 20 25% 15%;
+
+    /* Primary: Tomato Red */
+    --primary: 8 70% 45%;
+    --primary-foreground: 35 30% 97%;
+
+    /* Secondary: Olive Green */
+    --secondary: 85 35% 35%;
+    --secondary-foreground: 85 10% 97%;
+
+    /* Muted: Warm light beige */
+    --muted: 35 20% 90%;
+    --muted-foreground: 20 15% 45%;
+
+    /* Accent: Warm cream */
+    --accent: 40 40% 88%;
+    --accent-foreground: 20 25% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 20% 82%;
+    --input: 30 20% 82%;
+    --ring: 8 70% 45%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --hero-overlay: linear-gradient(
+      to bottom,
+      hsla(20, 25%, 10%, 0.55) 0%,
+      hsla(20, 25%, 10%, 0.75) 100%
+    );
+    --warm-shadow: 0 4px 20px -4px hsla(20, 30%, 20%, 0.15);
+    --warm-shadow-lg: 0 10px 40px -8px hsla(20, 30%, 20%, 0.2);
+
+    --sidebar-background: 35 25% 92%;
+    --sidebar-foreground: 20 25% 15%;
+    --sidebar-primary: 8 70% 45%;
+    --sidebar-primary-foreground: 35 30% 97%;
+    --sidebar-accent: 40 40% 88%;
+    --sidebar-accent-foreground: 20 25% 15%;
+    --sidebar-border: 30 20% 82%;
+    --sidebar-ring: 8 70% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .hero-overlay {
+    background: var(--hero-overlay);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
