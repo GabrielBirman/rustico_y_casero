@@ -11,7 +11,7 @@ const ContactSection = () => {
           ¿Querés hacer un pedido?
         </h2>
         <p className="font-body text-base md:text-lg text-muted-foreground mb-10">
-          Escribinos por WhatsApp y te respondemos al instante. También podés consultarnos por pedidos mayoristas y catering.
+          PEDIDOS CON ANTICIPACION.Escribinos por WhatsApp y te respondemos al instante. También podés consultarnos por pedidos mayoristas y catering.
         </p>
 
         <a
@@ -29,15 +29,15 @@ const ContactSection = () => {
         <div className="mt-14 grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm font-body text-muted-foreground">
           <div className="flex flex-col items-center gap-2">
             <MapPin className="w-5 h-5 text-primary" />
-            <span>Buenos Aires, Argentina</span>
+            <span>Ciudadela, Buenos Aires, Argentina</span>
           </div>
           <div className="flex flex-col items-center gap-2">
             <Phone className="w-5 h-5 text-primary" />
-            <span>+54 11 0000-0000</span>
+            <span>+54 9 11 5051-3698</span>
           </div>
           <div className="flex flex-col items-center gap-2">
             <Clock className="w-5 h-5 text-primary" />
-            <span>Lun a Sáb: 9 a 19hs</span>
+            <span>Dom a jue: 9 a 17hs</span>
           </div>
         </div>
       </div>

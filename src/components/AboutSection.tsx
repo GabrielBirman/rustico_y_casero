@@ -13,12 +13,12 @@ const AboutSection = () => {
           <div className="md:w-1/2 md:text-left text-center flex flex-col justify-center">
             <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-8">
               Nuestra Historia<br/>
-              <span className="text-lg md:text-2xl font-normal block mt-2">Tradición y sabor en cada masa</span>
+              <span className="text-lg md:text-2xl font-normal block mt-2">Tradición y sabor en cada masa, mas de 7 años de experiencia</span>
             </h2>
             <div className="space-y-5 font-body text-base md:text-lg text-muted-foreground leading-relaxed">
               <div className="space-y-5 font-body text-base md:text-lg text-muted-foreground leading-relaxed">
   <p>
-    Desde el corazón de <strong className="text-foreground">Ciudadela</strong>, Ana decidió emprender este proyecto
+    Desde el corazón de <strong className="text-foreground">Ciudadela</strong>, En 2019 Ana decidió emprender este proyecto
     por su cuenta, con coraje y mucha constancia. Lo que empezó como un desafío personal de autosuperación,
     hoy es <strong className="text-foreground">Rústico y Casero</strong>: un camino construido a fuerza de trabajo,
     amor por lo artesanal y ganas de salir adelante.
@@ -27,12 +27,15 @@ const AboutSection = () => {
   <p>
     En <strong className="text-foreground">Rústico y Casero</strong> creemos que las mejores cosas se hacen con las
     manos y el corazón. Cada prepizza que preparamos lleva ingredientes seleccionados y una masa elaborada
-    artesanalmente, siguiendo la receta que nos enseñaron en casa.
+    artesanalmente, siguiendo la receta italiana que nos enseñaron en casa.
   </p>
 
   <p>
     Nuestro compromiso es ofrecerte un producto fresco, honesto y de calidad, para que puedas disfrutar en
     familia o sorprender en tus eventos con el sabor de lo auténtico.
+  </p>
+  <p>
+    Desde entonces la gente sigue eligiéndonos por nuestro sabor casero, la calidad de nuestros productos y el servicio personalizado. Nos enorgullece ser parte de tu mesa y de tus momentos especiales.
   </p>
 </div>
 
