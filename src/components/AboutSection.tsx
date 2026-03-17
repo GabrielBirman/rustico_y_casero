@@ -21,7 +21,7 @@ const AboutSection = () => {
     Desde el corazón de <strong className="text-foreground">Ciudadela</strong>, En 2019 Ana decidió emprender este proyecto
     por su cuenta, con coraje y mucha constancia. Lo que empezó como un desafío personal de autosuperación,
     hoy es <strong className="text-foreground">Rústico y Casero</strong>: un camino construido a fuerza de trabajo,
-    amor por lo artesanal y ganas de salir adelante.
+    amor por lo artesanal y ganas de salir adelante.  
   </p>
 
   <p>

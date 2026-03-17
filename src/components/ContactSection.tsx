@@ -1,6 +1,6 @@
 import { MapPin, Phone, Clock } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5491100000000"; // Reemplazar con número real
+const WHATSAPP_NUMBER = "5491150513698"; 
 
 const ContactSection = () => {
   return (
